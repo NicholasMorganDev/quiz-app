@@ -1,0 +1,71 @@
+[
+  {
+    "id": "1",
+    "question": "2 + 2 = ?",
+    "options": [
+      { "answer": "It will be 5", "isCorrect": false },
+
+      { "answer": "It could be 3", "isCorrect": false },
+
+      { "answer": "Maybe 1", "isCorrect": false },
+
+      { "answer": "Fo Sho 4", "isCorrect": true }
+    ]
+  },
+
+  {
+    "id": "2",
+    "question": "What is my favorite Color?",
+    "options": [
+      { "answer": "Hot Pink", "isCorrect": false },
+
+      { "answer": "Baby Blue", "isCorrect": true },
+
+      { "answer": "Dark Red", "isCorrect": false },
+
+      { "answer": "Light Green", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": "3",
+    "question": "What is my dog's name?",
+    "options": [
+      { "answer": "Baxter", "isCorrect": false },
+
+      { "answer": "Darius", "isCorrect": false },
+
+      { "answer": "Franky", "isCorrect": true },
+
+      { "answer": "Lucky", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": "4",
+    "question": "What was my gpa in highschool?",
+    "options": [
+      { "answer": "3.5", "isCorrect": true },
+
+      { "answer": "3.0", "isCorrect": false },
+
+      { "answer": "2.5", "isCorrect": false },
+
+      { "answer": "4.0", "isCorrect": false }
+    ]
+  },
+
+  {
+    "id": "5",
+    "question": "Who is my best friend?",
+    "options": [
+      { "answer": "Aaron", "isCorrect": false },
+
+      { "answer": "Andrew", "isCorrect": false },
+
+      { "answer": "Luca", "isCorrect": false },
+
+      { "answer": "All the Above", "isCorrect": true }
+    ]
+  }
+]

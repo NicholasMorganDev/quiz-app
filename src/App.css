@@ -1,38 +1,64 @@
-.App {
+:root {
+  --color-white: #ffffff;
+  --color-grey: #333333;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url("/public/images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+p, li {
+  font-size: clamp(17px, 4vw, 21px);
+}
+
+h1 {
+  font-size: clamp(41px, 4vw, 58px);
+  font-weight: 800;
   text-align: center;
+  padding: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  font-weight: 800;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.quiz-card, .quiz-result {
+  background-color: rgba(255, 255, 255, 0.656);
+  border-radius: 13px;
+  padding: 40px;
+  border: 5px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.quiz-card ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.quiz-card ul li {
+  padding: 10px;
+}
+
+.quiz-card ul li:hover {
+  background-color: lightgreen;
+}
+
+.quiz-result {
+  background-color: lightgreen;
+}
+
+footer {
+  background-color: rgba(128, 128, 128, 0.472);
+  font-weight: 600;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  text-align: center;
 }
